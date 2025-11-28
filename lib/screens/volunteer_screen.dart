@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class VolunteerScreen extends StatefulWidget {
+  const VolunteerScreen({super.key});
+
   @override
   State<VolunteerScreen> createState() => _VolunteerScreenState();
 }
