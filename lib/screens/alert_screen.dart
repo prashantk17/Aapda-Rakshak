@@ -60,7 +60,7 @@ class _AlertScreenState extends State<AlertScreen> {
                     end: Alignment.bottomRight,
                   ),
                   borderRadius: BorderRadius.circular(12),
-                  border: Border.all(color: Color(0xFFD32F2F).withOpacity(0.3)),
+                  border: Border.all(color: Color(0xFFD32F2F).withValues(alpha: 0.3)),
                 ),
                 padding: EdgeInsets.all(16),
                 child: Row(
@@ -95,7 +95,7 @@ class _AlertScreenState extends State<AlertScreen> {
                   borderRadius: BorderRadius.circular(16),
                   boxShadow: [
                     BoxShadow(
-                      color: Color(0xFFD32F2F).withOpacity(0.4),
+                      color: Color(0xFFD32F2F).withValues(alpha: 0.4),
                       blurRadius: 20,
                       offset: Offset(0, 8),
                     ),
@@ -133,7 +133,7 @@ class _AlertScreenState extends State<AlertScreen> {
                                 Text(
                                   'Press to send emergency message',
                                   style: TextStyle(
-                                    color: Colors.white.withOpacity(0.8),
+                                    color: Colors.white.withValues(alpha: 0.8),
                                     fontSize: 12,
                                   ),
                                 ),
@@ -195,7 +195,7 @@ class _AlertScreenState extends State<AlertScreen> {
         children: [
           Container(
             decoration: BoxDecoration(
-              color: Color(0xFFD32F2F).withOpacity(0.1),
+              color: Color(0xFFD32F2F).withValues(alpha: 0.1),
               shape: BoxShape.circle,
             ),
             padding: EdgeInsets.all(8),

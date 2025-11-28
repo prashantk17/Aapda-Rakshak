@@ -44,7 +44,7 @@ class InfoScreen extends StatelessWidget {
         child: ListView.separated(
           padding: EdgeInsets.symmetric(horizontal: 16, vertical: 16),
           itemCount: disasters.length,
-          separatorBuilder: (_, __) => SizedBox(height: 12),
+          separatorBuilder: (_, _) => SizedBox(height: 12),
           itemBuilder: (context, index) {
             final d = disasters[index];
             final colors = [
@@ -58,12 +58,12 @@ class InfoScreen extends StatelessWidget {
             return Container(
               decoration: BoxDecoration(
                 gradient: LinearGradient(
-                  colors: [color.withOpacity(0.1), color.withOpacity(0.05)],
+                  colors: [color.withValues(alpha: 0.1), color.withValues(alpha: 0.05)],
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
                 ),
                 borderRadius: BorderRadius.circular(12),
-                border: Border.all(color: color.withOpacity(0.3)),
+                border: Border.all(color: color.withValues(alpha: 0.3)),
               ),
               child: Theme(
                 data: Theme.of(context).copyWith(

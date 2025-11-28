@@ -40,18 +40,18 @@ class SafeLocationsScreen extends StatelessWidget {
         child: ListView.separated(
           padding: EdgeInsets.symmetric(horizontal: 16, vertical: 16),
           itemCount: shelters.length,
-          separatorBuilder: (_, __) => SizedBox(height: 12),
+          separatorBuilder: (_, _) => SizedBox(height: 12),
           itemBuilder: (context, index) {
             final s = shelters[index];
             return Container(
               decoration: BoxDecoration(
                 gradient: LinearGradient(
-                  colors: [Color(0xFF388E3C).withOpacity(0.1), Color(0xFF388E3C).withOpacity(0.05)],
+                  colors: [Color(0xFF388E3C).withValues(alpha: 0.1), Color(0xFF388E3C).withValues(alpha: 0.05)],
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
                 ),
                 borderRadius: BorderRadius.circular(12),
-                border: Border.all(color: Color(0xFF388E3C).withOpacity(0.3)),
+                border: Border.all(color: Color(0xFF388E3C).withValues(alpha: 0.3)),
               ),
               child: Material(
                 color: Colors.transparent,
@@ -74,7 +74,7 @@ class SafeLocationsScreen extends StatelessWidget {
                             shape: BoxShape.circle,
                             boxShadow: [
                               BoxShadow(
-                                color: Color(0xFF388E3C).withOpacity(0.3),
+                                color: Color(0xFF388E3C).withValues(alpha: 0.3),
                                 blurRadius: 8,
                               ),
                             ],
