@@ -1,3 +1,9 @@
-2025/11/27-16:36:00.677 3fa0 Reusing MANIFEST C:\Users\lenovo\AppData\Local\Temp\flutter_tools.f1a6752f\flutter_tools_chrome_device.66f995da\Default\Site Characteristics Database/MANIFEST-000001
-2025/11/27-16:36:00.678 3fa0 Recovering log #3
-2025/11/27-16:36:00.678 3fa0 Reusing old log C:\Users\lenovo\AppData\Local\Temp\flutter_tools.f1a6752f\flutter_tools_chrome_device.66f995da\Default\Site Characteristics Database/000003.log 
+2025/11/28-15:27:24.703 3ae0 Reusing MANIFEST C:\Users\lenovo\AppData\Local\Temp\flutter_tools.8ecdd79e\flutter_tools_chrome_device.ee9b6b5e\Default\Site Characteristics Database/MANIFEST-000001
+2025/11/28-15:27:24.706 32dc Compacting 4@0 + 0@1 files
+2025/11/28-15:27:24.717 32dc Generated table #11@0: 4 keys, 320 bytes
+2025/11/28-15:27:24.717 32dc Compacted 4@0 + 0@1 files => 320 bytes
+2025/11/28-15:27:24.721 32dc compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/11/28-15:27:24.722 32dc Delete type=2 #4
+2025/11/28-15:27:24.722 32dc Delete type=2 #6
+2025/11/28-15:27:24.722 32dc Delete type=2 #7
+2025/11/28-15:27:24.723 32dc Delete type=2 #8

@@ -26,7 +26,7 @@ class AapdaRakshakApp extends StatelessWidget {
           backgroundColor: Color(0xFFD32F2F),
           foregroundColor: Colors.white,
         ),
-        cardTheme: CardTheme(
+        cardTheme: CardThemeData(
           elevation: 2,
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
         ),

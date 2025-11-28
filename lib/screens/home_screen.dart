@@ -260,7 +260,10 @@ class HomeScreen extends StatelessWidget {
                 Navigator.push(context, MaterialPageRoute(builder: (_) => VolunteerScreen()));
               },
             ),
-            Divider(margin: EdgeInsets.symmetric(vertical: 8)),
+            Padding(
+              padding: EdgeInsets.symmetric(vertical: 8),
+              child: Divider(),
+            ),
             ListTile(
               leading: Icon(Icons.info_outline, color: Color(0xFFD32F2F)),
               title: Text('About'),
