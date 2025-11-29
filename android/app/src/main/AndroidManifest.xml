@@ -1,3 +1,4 @@
+<meta-data android:name="com.google.android.geo.API_KEY" android:value="YOUR_ANDROID_API_KEY"/>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
         android:label="aapda_rakshak"

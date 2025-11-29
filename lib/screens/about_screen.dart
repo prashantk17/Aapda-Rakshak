@@ -70,16 +70,16 @@ class AboutScreen extends StatelessWidget {
                     Text(
                       'Emergency Response & Disaster Management',
                       style: TextStyle(
-                        color: Colors.white.withOpacity(0.9),
-                        fontSize: 14,
+                        color: Colors.white.withValues(alpha: 0.9),
+                        fontSize: 18,
                       ),
                     ),
                     SizedBox(height: 8),
                     Text(
                       'Version 1.0.0',
                       style: TextStyle(
-                        color: Colors.white.withOpacity(0.7),
-                        fontSize: 12,
+                        color: Colors.white.withValues(alpha: 0.7),
+                        fontSize: 14,
                       ),
                     ),
                   ],
@@ -171,9 +171,9 @@ class AboutScreen extends StatelessWidget {
               // Disclaimer
               Container(
                 decoration: BoxDecoration(
-                  color: Colors.yellow.withOpacity(0.1),
+                  color: Colors.yellow.withValues(alpha: 0.1),
                   borderRadius: BorderRadius.circular(8),
-                  border: Border.all(color: Colors.orange.withOpacity(0.3)),
+                  border: Border.all(color: Colors.orange.withValues(alpha: 0.3)),
                 ),
                 padding: EdgeInsets.all(12),
                 child: Row(

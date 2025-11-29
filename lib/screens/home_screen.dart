@@ -23,7 +23,7 @@ class HomeScreen extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(
-            colors: [Color(0xFFF5F5F5), Color(0xFFEEEEEE)],
+            colors: [Color(0xFFF5F5F5), Color.fromARGB(255, 255, 0, 0)],
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
           ),
@@ -56,7 +56,7 @@ class HomeScreen extends StatelessWidget {
                   Text(
                     'Stay prepared. Help others. Be safe.',
                     style: TextStyle(
-                      color: Colors.white.withOpacity(0.9),
+                      color: Colors.white.withValues(alpha: 0.9),
                       fontSize: 14,
                       fontWeight: FontWeight.w500,
                     ),
@@ -122,7 +122,7 @@ class HomeScreen extends StatelessWidget {
                         end: Alignment.bottomRight,
                       ),
                       borderRadius: BorderRadius.circular(12),
-                      border: Border.all(color: Color(0xFFFF6F00).withOpacity(0.3)),
+                      border: Border.all(color: Color(0xFFFF6F00).withValues(alpha: 0.3)),
                     ),
                     child: Material(
                       color: Colors.transparent,
@@ -193,7 +193,7 @@ class HomeScreen extends StatelessWidget {
                 children: [
                   Container(
                     decoration: BoxDecoration(
-                      color: Colors.white.withOpacity(0.2),
+                      color: Colors.white.withValues(alpha: 0.2),
                       shape: BoxShape.circle,
                     ),
                     padding: EdgeInsets.all(12),
@@ -214,7 +214,7 @@ class HomeScreen extends StatelessWidget {
                       Text(
                         'Emergency Response',
                         style: TextStyle(
-                          color: Colors.white.withOpacity(0.8),
+                          color: Colors.white.withValues(alpha: 0.8),
                           fontSize: 12,
                         ),
                       ),
