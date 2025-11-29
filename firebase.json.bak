@@ -1,0 +1,29 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "aapada-rakshak",
+          "appId": "1:339998927896:android:c4795bdadcc673b9b0e76d",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "aapada-rakshak",
+          "configurations": {
+            "android": "1:339998927896:android:c4795bdadcc673b9b0e76d",
+            "ios": "1:339998927896:ios:c3b7da079563088db0e76d",
+            "web": "1:339998927896:web:cf161948da93ce0fb0e76d"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "database": "(default)",
+    "location": "asia-east1",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}

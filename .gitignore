@@ -1,0 +1,43 @@
+@"
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub/
+build/
+**/build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-credentials
+.idea/
+.vscode/
+*.iml
+
+# Android
+/android/.gradle/
+/android/.idea/
+/android/local.properties
+/android/app/google-services.json
+/android/**/build/
+/android/build/
+/**/generated/
+
+# iOS
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Flutter/Flutter.podspec
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Logs and debug
+*.log
+
+# Binaries
+*.apk
+*.aab
+*.so
+
+# Misc
+pubspec.lock
+"@ > .gitignore
